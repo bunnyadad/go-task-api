@@ -1,0 +1,10 @@
+version: '2'
+services:
+  api-server:
+    image: go-task-api-server
+    container_name: go-task-api-server
+    build:
+      context: ../
+      dockerfile: ./build/go-task-api/Dockerfile
+    ports:
+      - "127.0.0.1:8080:8080"
