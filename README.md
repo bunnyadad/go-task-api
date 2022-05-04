@@ -1,6 +1,5 @@
 # go-task-api
-[![run tests](https://github.com/bunnyadad/go-task-api/actions/workflows/test.yml/badge.svg)](https://github.com/bunnyadad/go-task-api/actions/workflows/test.yml)
-[![release](https://github.com/bunnyadad/go-task-api/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/bunnyadad/go-task-api/actions/workflows/docker-publish.yml)
+[![run tests](https://github.com/bunnyadad/go-task-api/actions/workflows/test.yml/badge.svg)](https://github.com/bunnyadad/go-task-api/actions/workflows/test.yml) [![release](https://github.com/bunnyadad/go-task-api/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/bunnyadad/go-task-api/actions/workflows/docker-publish.yml)
 
 ## Introduction
 - Implement a Restful task list API.
