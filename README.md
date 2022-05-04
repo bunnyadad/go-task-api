@@ -13,4 +13,4 @@
 	$go test ./... -coverprofile=./test_results/cover.out && go tool cover -html=./test_results/cover.out -o ./test_results/cover.html
 
 ## Installation
-    $ docker-compose -f build/docker-compose.yml up
+    $ docker-compose -f docker-compose.yml up
