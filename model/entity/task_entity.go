@@ -3,5 +3,5 @@ package entity
 type TaskEntity struct {
 	ID     int
 	Name   string
-	Status int
+	Status bool
 }

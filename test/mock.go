@@ -54,8 +54,8 @@ type MockTaskRepositoryGetTasksExist struct {
 
 func (mtrgex *MockTaskRepositoryGetTasksExist) GetTasks() (tasks []entity.TaskEntity, err error) {
 	tasks = []entity.TaskEntity{}
-	tasks = append(tasks, entity.TaskEntity{ID: 1, Name: "title1", Status: 0})
-	tasks = append(tasks, entity.TaskEntity{ID: 2, Name: "title2", Status: 0})
+	tasks = append(tasks, entity.TaskEntity{ID: 1, Name: "title1", Status: false})
+	tasks = append(tasks, entity.TaskEntity{ID: 2, Name: "title2", Status: false})
 	return
 }
 
