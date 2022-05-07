@@ -6,8 +6,6 @@ name: release
 # documentation.
 
 on:
-  schedule:
-    - cron: '36 14 * * *'
   push:
     branches: [ master ]
     # Publish semver tags as releases.
